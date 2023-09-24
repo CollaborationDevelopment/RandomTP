@@ -1,0 +1,95 @@
+open_command:
+- rtp
+- randomtp
+- randomteleport
+- rteleport
+- random tp
+- random teleport
+- r teleport
+size: 27
+menu_title: '&#23FFA3&lʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ'
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.default.rtp
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'Overworld':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+    data: 1
+    slot: 12
+    display_name: "    &#62E5E9&lᴏᴠᴇʀᴡᴏʀʟᴅ"
+    lore:
+      - "&#A0A0A0ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ"
+    left_click_commands:
+      - "[console] rtp player %player_name% world"
+      - "[close]"
+    right_click_commands:
+      - "[console] rtp player %player_name% world"
+      - "[close]"
+  'Nether':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRkMzBlMmZjNWNiMDQ0NjFiYWJjMzk0MjMzODAxODdkMzUyNjUwOWNkNmQ0YzM1YzA0ZjYxNmYzMWIxYjkxZiJ9fX0=
+    data: 2
+    slot: 13
+    display_name: "       &#FD401B&lɴᴇᴛʜᴇʀ"
+    lore:
+      - "&#A0A0A0ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ"
+    left_click_commands:
+      - "[console] rtp player %player_name% world_nether"
+      - "[close]"
+    right_click_commands:
+      - "[console] rtp player %player_name% world_nether"
+      - "[close]"
+  'End':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI4MTNjZjhjNGZkMDEzYmFmNWJmNTVhOGM5MzEyMWM0ODJkYTFjZjZlMTA1NGMxODBmZjNlODE3MjdiNjVkZCJ9fX0=
+    data: 3
+    slot: 14
+    display_name: "         &#BD3FFC&lᴇɴᴅ"
+    lore:
+      - "&#A0A0A0ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ"
+    left_click_commands:
+      - "[console] rtp player %player_name% world_the_end"
+      - "[close]"
+    right_click_commands:
+      - "[console] rtp player %player_name% world_the_end"
+      - "[close]"
+  'Close':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    data: 4
+    slot: 26
+    display_name: "&4&lᴄʟᴏꜱᴇ"
+    left_click_commands:
+      - "[close]"
+    right_click_commands:
+      - "[close]"
+  'Pane':
+    material: white_stained_glass_pane
+    data: 5
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    display_name: " "
+sweet: true
